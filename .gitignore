@@ -1,0 +1,10 @@
+# Linix kernel build
+**/*.o
+**/*.order
+**/*.ko
+**/*.mod.*
+**/*.symvers
+
+# VS Code
+**/.vscode
+**/.tmp_*
