@@ -1,0 +1,1 @@
+cmd_/home/deimos/projects/lkm_example/lkm_example.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/deimos/projects/lkm_example/lkm_example.ko /home/deimos/projects/lkm_example/lkm_example.o /home/deimos/projects/lkm_example/lkm_example.mod.o ;  true
